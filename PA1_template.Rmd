@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: 'Reproducible Research: Peer Assessment 1'
 output:
   html_document:
@@ -34,10 +35,30 @@ output:
      plot(stepsbyinterval$interval,stepsbyinterval$steps, type="l", xlab="Interval", ylab="Number of Steps",main="Average Number of Steps per Day by Interval")
      Maximum number of steps 
      maxinterval <- stepsbyinterval[which.max(stepsbyinterval$steps),1]
+=======
+title: "Reproducible Research: Peer Assessment 1"
+output: 
+  html_document:
+    keep_md: true
+---
+
+
+## Loading and preprocessing the data
+
+
+
+## What is mean total number of steps taken per day?
+
+
+
+## What is the average daily activity pattern?
+
+>>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
 
 
 ## Imputing missing values
 
+<<<<<<< HEAD
      Total number of missing values in the dataset (i.e. the total number of rows with NAs)
      incomplete <- sum(!complete.cases(activity))
      
@@ -85,3 +106,8 @@ output:
 
 
 
+=======
+
+
+## Are there differences in activity patterns between weekdays and weekends?
+>>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
